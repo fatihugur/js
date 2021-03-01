@@ -9,23 +9,21 @@ btn.addEventListener("click", function () {
   alert(2);
 });
 
-btn.addEventListener("mouseover", function (e) {
-  console.log(e);
-  btn.style.backgroundColor = "red";
-});
+//FUNCTIONS OVER - FUNCTIONS OUT
 
-btn.addEventListener("mouseout", function (e) {
-  console.log(e);
-  btn.style.backgroundColor = "";
-});
+function over(e) {
+  e.target.style.backgroundColor = "red";
+}
+
+function out(e) {
+  e.target.style.backgroundColor = "";
+}
+
+// btn
+btn.addEventListener("mouseover", over);
+btn.addEventListener("mouseout", out);
 
 // btn 2
 
-btn2.addEventListener("mouseover", function (e) {
-  console.log(e);
-  btn2.style.backgroundColor = "red";
-});
-
-btn2.addEventListener("mouseout", function (e) {
-  btn2.style.backgroundColor = "";
-});
+btn2.addEventListener("mouseover", over);
+btn2.addEventListener("mouseout", out);
