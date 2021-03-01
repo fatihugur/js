@@ -1,4 +1,4 @@
-//SCOPE - CONTEXT  HOISTINĞ
+//SCOPE - CONTEXT  HOISTING
 
 // var = > variable
 // let = > lets iets

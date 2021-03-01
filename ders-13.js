@@ -11,6 +11,8 @@ var _name = "Fatih";
 var -name = "Fatih"; // kullanılmaz
 var $name =" Fatih";
 
+//VARIABLES
+
 var $ = "Jquery";
 var _ = "underscore";
 //variables decleration // 
@@ -32,3 +34,4 @@ function fonksiyon() {
     isim = "Fatih";
     console.log(isim);
 }
+

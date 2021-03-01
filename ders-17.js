@@ -49,3 +49,22 @@ while (/* koşul */ i < 10) {
 for (var i = 0; i < 10; i += 10) {
   console.log("merhaba");
 }
+
+//FOR IN
+
+var nesne = { a: 1, b: 2 };
+for (var i in nesne) {
+  console.log(i);
+}
+
+// CONTINUE // BREAK
+var i = 0;
+while (true) {
+  if (i == 5) {
+    i++;
+    continue;
+  }
+  console.log("Merhaba" + i);
+  if (i == 10) break;
+  i++;
+}

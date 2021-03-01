@@ -40,7 +40,11 @@ function g(x){
 }
 
 var f = function (x) { return 2 * x + 5; }
- 
+function g(x) { return 2 * x + 5; }
+
+f(x);
+g(x);
+
 
 
 

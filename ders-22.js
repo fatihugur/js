@@ -105,6 +105,7 @@ function sum(x) {
 var a = function (x) {
   return x + 5;
 };
+
 const a = (x) => {
   return x + 5;
 };
