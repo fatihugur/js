@@ -19,8 +19,17 @@ function over(e) {
 function out(e) {
   e.target.style.backgroundColor = "";
 }
+//draggable button
+// btn.addEventListener("drag", function (e) {
+//   console.log(e);
+// });
 
-btn.addEventListener("drag", function (e) {
+//dragstar /dragend
+btn.addEventListener("dragstart", function (e) {
+  console.log(e);
+});
+
+btn.addEventListener("dragend", function (e) {
   console.log(e);
 });
 
@@ -51,3 +60,4 @@ inp.addEventListener("keyup", function (e) {
 // keydown - keypress - keyup
 //mouse eventler
 //drag & drop
+//battery events
